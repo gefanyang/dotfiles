@@ -1,0 +1,42 @@
+# --- Typography ---
+font-family = "Maple Mono NF CN"
+font-size = 14
+font-thicken = true
+
+# --- Theme and colors ---
+theme = TokyoNight
+
+# --- Cursor ---
+cursor-style = bar
+
+# --- Mouse ---
+copy-on-select = clipboard
+
+# --- Quick terminal ---
+quick-terminal-position = top
+quick-terminal-screen = mouse
+
+# --- Keybindings ---
+# Tabs
+keybind = cmd+t=new_tab
+keybind = cmd+left=previous_tab
+keybind = cmd+right=next_tab
+keybind = cmd+w=close_surface
+# Splits
+keybind = cmd+d=new_split:right
+keybind = cmd+shift+d=new_split:down
+# Font size
+keybind = cmd+plus=increase_font_size:1
+keybind = cmd+minus=decrease_font_size:1
+keybind = cmd+zero=reset_font_size
+# Quick terminal
+keybind = global:cmd+grave_accent=toggle_quick_terminal
+
+# --- Keymap ----
+macos-option-as-alt = left
+
+# --- Enhance panel visual ---
+split-divider-color = #555555
+unfocused-split-opacity = 0.5
+window-padding-x = 10
+window-padding-y = 10
