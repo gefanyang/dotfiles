@@ -47,3 +47,6 @@ eval "$(uv generate-shell-completion zsh)"
 export PATH="$(brew --prefix rsync)/bin:$PATH"
 # <<< rsync (homebrew) <<<
 
+# >>> fastfetch >>>
+fastfetch
+# <<< fastfetch <<<
